@@ -201,7 +201,7 @@ public class IndexController {
         return "clientSearch-list";
     }
 
-    //仅仅是清空上传的照片
+    //仅仅是清空上传的照片和配送员
     @RequestMapping("/restart")
     public String restart(HttpServletRequest request) {
         List<WareHouse> list = service.findAll();
@@ -212,8 +212,8 @@ public class IndexController {
                 System.out.println(beforeImgUrl);
                 File file = new File(beforeImgUrl);
                 file.delete();
-                service.modifyImgUrlById(warehouse);
             }
+            service.modifyImgUrlById(warehouse);
         }
         HttpSession session = request.getSession();
         return "redirect:/index/findAllPage?pageNum=" + session.getAttribute("pageNum");

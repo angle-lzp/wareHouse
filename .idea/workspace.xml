@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab675160-dd55-4c4d-8c07-f5f460a36d83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angle/mapper/CourierMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angle/mapper/CourierMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angle/mapper/CourierMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angle/mapper/CourierMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angle/service/ICourierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angle/service/ICourierService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angle/service/impl/CourierServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angle/service/impl/CourierServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/angle/web/controller/WarehouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angle/web/controller/WarehouseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/courier-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/courier-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/angle/web/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/angle/web/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/client-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/client-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/mapper/CourierMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/mapper/CourierMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/mapper/CourierMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/mapper/CourierMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/service/ICourierService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/service/ICourierService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/service/impl/CourierServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/service/impl/CourierServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/web/controller/WarehouseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/web/controller/WarehouseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/pages/courier-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/pages/courier-add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/angle/mapper/CourierMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angle/mapper/CourierMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/angle/mapper/CourierMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angle/mapper/CourierMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/angle/service/ICourierService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angle/service/ICourierService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/angle/service/impl/CourierServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angle/service/impl/CourierServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/angle/web/controller/WarehouseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angle/web/controller/WarehouseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/web/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/WEB-INF/classes/com/angle/web/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/pages/client-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WarehouseAdmin-1.0-SNAPSHOT/pages/client-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/angle/web/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/angle/web/controller/IndexController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/warehouse.sql" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,17 +23,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/web/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+            <state relative-caret-position="338">
+              <caret line="221" column="15" lean-forward="true" selection-start-line="221" selection-start-column="15" selection-end-line="221" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/service/impl/UserDetailsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/service/impl/UserDetailsServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/client-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="230" column="60" lean-forward="true" selection-start-line="230" selection-start-column="60" selection-end-line="230" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -56,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/web/controller/CourierController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-757">
-              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/web/controller/WarehouseController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1116">
-              <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+              <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -95,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/mapper/CourierMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="14" column="71" lean-forward="true" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -122,9 +117,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/angle/mapper/CourierMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/angle/service/ICourierService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angle/service/impl/CourierServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/angle/web/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angle/mapper/CourierMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/angle/web/controller/WarehouseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/angle/web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/client-list.jsp" />
       </list>
     </option>
   </component>
@@ -277,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597071448604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597072479631" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -308,18 +304,25 @@
       <option name="presentableId" value="Default" />
       <updated>1597060641392</updated>
       <workItem from="1597060649760" duration="1932000" />
-      <workItem from="1597066532498" duration="4907000" />
+      <workItem from="1597066532498" duration="6012000" />
     </task>
+    <task id="LOCAL-00001" summary="2020-08-10 22:59解决编码和修改配送员下拉框">
+      <created>1597071551551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597071551552</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6839000" />
+    <option name="totallyTimeSpent" value="7944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23146747" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23146747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -327,14 +330,14 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.38225257" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.50511944" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935154" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
@@ -344,7 +347,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -354,6 +357,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020-08-10 22:59解决编码和修改配送员下拉框" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-08-10 22:59解决编码和修改配送员下拉框" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
@@ -371,11 +378,6 @@
         <state relative-caret-position="-108">
           <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/client-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4428" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/web/controller/BCryptPasswordDemo.java">
@@ -420,7 +422,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/mapper/CourierMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="14" column="71" lean-forward="true" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -434,31 +436,38 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/web/controller/WarehouseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1116">
-          <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+          <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/web/controller/CourierController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-757">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/web/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/service/impl/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        <state relative-caret-position="204">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/service/impl/UserDetailsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/angle/web/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="338">
+          <caret line="221" column="15" lean-forward="true" selection-start-line="221" selection-start-column="15" selection-end-line="221" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/client-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="230" column="60" lean-forward="true" selection-start-line="230" selection-start-column="60" selection-end-line="230" selection-end-column="60" />
         </state>
       </provider>
     </entry>

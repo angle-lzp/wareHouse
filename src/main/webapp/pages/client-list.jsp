@@ -189,7 +189,7 @@
 
                         <!--工具栏-->
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-7">
                             <div class="pull-left">
                                 <div class="form-group form-inline">
                                     <div class="btn-group">
@@ -211,7 +211,7 @@
                                         </button>
                                         <button type="button" class="btn btn-default" title="刷新"
                                                 onclick="location.href='${pageContext.request.contextPath}/index/restart'">
-                                            <i class="fa fa-refresh"></i> 重置(仅照片)
+                                            <i class="fa fa-refresh"></i> 重置(仅照片和配送员)
                                         </button>&nbsp;&nbsp;&nbsp;
                                         <select class="form-control" id="CouSelect">
                                             <option value="0">--请选择配送员--</option>
@@ -223,12 +223,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-2">
                             <div class="box-tools pull-right">
                                 <div class="has-feedback">
                                     <div class="input-group">
                                         <input type="text" class="form-control form-control-other"
-                                               placeholder="按其他条件搜索">
+                                               placeholder="其他条件搜索">
                                     </div>
                                 </div>
                             </div>
