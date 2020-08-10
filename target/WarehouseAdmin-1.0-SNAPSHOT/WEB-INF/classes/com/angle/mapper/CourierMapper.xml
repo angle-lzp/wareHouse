@@ -11,6 +11,10 @@
         select * from courier where username=#{username}
     </select>
 
+    <select id="findByUsernameTag" resultType="Courier">
+        select * from courier where username=#{username} and tag=#{tag}
+    </select>
+
     <select id="count" resultType="int">
         select count(*) from courier
     </select>

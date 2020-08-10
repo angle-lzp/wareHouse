@@ -24,4 +24,6 @@ public interface ICourierService {
     void insert(Courier courier);
 
     Courier findByUsername(String username);
+
+    Courier findByUsernameTag(String username,Integer tag);
 }

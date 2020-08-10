@@ -129,8 +129,8 @@
                         <div class="col-md-2 title">创建类别</div>
                         <div class="col-md-4 data">
                             <select class="form-control" id="CouSelect" name="tag">
-                                <option value="1">管理员</option>
                                 <option value="2">配送员</option>
+                                <option value="1">管理员</option>
                             </select>
                         </div>
                     </div>

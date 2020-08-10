@@ -60,4 +60,9 @@ public class CourierServiceImpl implements ICourierService {
     public Courier findByUsername(String username) {
         return mapper.findByUsername(username);
     }
+
+    @Override
+    public Courier findByUsernameTag(String username, Integer tag) {
+        return mapper.findByUsernameTag(username,tag);
+    }
 }

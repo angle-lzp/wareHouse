@@ -58,8 +58,12 @@ public class WarehouseController {
         PageResult pageResult = null;
         PageModel pageModel = null;
         if (line.equals("null")) {
-
-            Courier currentCourier = courierService.findByUsername(username);
+            try {
+                username = new String(username.getBytes("ISO-8859-1"), "UTF-8");
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+            Courier currentCourier = courierService.findByUsernameTag(username, 2);
             //获取该登入用户的id，用于查询配送得客户
             int cid = currentCourier.getId();
             //已经完成了送货的客户
@@ -147,7 +151,18 @@ public class WarehouseController {
     @ResponseBody
     public int login(Courier courier, HttpServletRequest request) {
         HttpSession session = request.getSession();
-        Courier courier1 = courierService.findByUsername(courier.getUsername());
+
+        String username = courier.getUsername();
+        String passwrod = courier.getPassword();
+        try {
+            byte[] byteUsername = username.getBytes("ISO-8859-1");
+            byte[] bytePassword = passwrod.getBytes("ISO-8859-1");
+            courier.setUsername(new String(byteUsername, "UTF-8"));
+            courier.setPassword(new String(bytePassword, "UTF-8"));
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        Courier courier1 = courierService.findByUsernameTag(courier.getUsername(), 2);
         if (courier1 != null) {
             if (courier.getPassword().equals(courier1.getAppPassword())) {
                 session.setAttribute("appCourier", courier1);
