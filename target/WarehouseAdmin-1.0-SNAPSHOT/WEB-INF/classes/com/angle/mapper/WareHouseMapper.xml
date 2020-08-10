@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.angle.mapper.WareHouseMapper">
+    <!--<resultMap id="WareHouse" type="WareHouse">
+        <id column="id" property="id"/>
+        <result column="onCarOrder" property="onCarOrder"/>
+        <result column="line" property="line"/>
+        <result column="codeNum" property="codeNum"/>
+        <result column="username" property="username"/>
+        <result column="address" property="address"/>
+        <result column="number" property="number"/>
+        <result column="cid" property="courier.id"/>
+        <association property="courier" column="cid" select="com.angle.mapper.CourierMapper.findById"/>
+    </resultMap>-->
+
+    <select id="findAll" resultType="WareHouse">
+        select id,onCarOrder,line,codeNum,username,address,cid,`number`,imgUrl from warehouse
+    </select>
+
+    <select id="count" resultType="int">
+        select count(*) from warehouse
+    </select>
+
+    <select id="findCountByCid" resultType="int">
+        select count(*) from warehouse where cid=#{cid}
+    </select>
+
+    <select id="findById" resultType="WareHouse">
+        select * from warehouse where id=#{id}
+    </select>
+
+    <select id="findAllByCid" resultType="WareHouse">
+        select * from warehouse where cid=#{cid}
+    </select>
+
+    <select id="findAllByLine" resultType="WareHouse">
+        select * from warehouse where line=#{line}
+    </select>
+
+    <select id="findAllByOther" resultType="WareHouse">
+        SELECT * FROM warehouse WHERE username LIKE #{other} OR address LIKE #{other} OR codeNum LIKE #{other}
+    </select>
+
+    <select id="findAllByAll" resultType="WareHouse">
+        SELECT * FROM warehouse WHERE (username LIKE #{other} OR address LIKE #{other} OR codeNum LIKE #{other}) AND line=#{line}
+    </select>
+
+    <select id="findAllByCondition" resultType="WareHouse">
+        SELECT * FROM warehouse WHERE username LIKE #{term} OR address LIKE #{term} OR line LIKE #{term}
+    </select>
+
+    <select id="findAllPageByCidAndLine" resultType="WareHouse">
+        SELECT * FROM warehouse WHERE cid=#{cid} and line=#{line}
+    </select>
+
+    <select id="findByImgUrlNoOver" resultType="WareHouse">
+        SELECT * FROM warehouse WHERE cid=#{cid} and imgUrl is null
+    </select>
+
+    <select id="findByImgUrlOver" resultType="WareHouse">
+        SELECT * FROM warehouse WHERE cid=#{cid} and imgUrl is not null
+    </select>
+
+    <delete id="deleteById">
+        delete from warehouse where id=#{id}
+    </delete>
+
+    <update id="modifyById">
+        update warehouse set onCarOrder=#{onCarOrder},line=#{line},codeNum=#{codeNum},username=#{username},address=#{address} where id=#{id}
+    </update>
+
+    <update id="modifyImgUrlById">
+        update warehouse set imgUrl=null,cid=null
+    </update>
+
+    <update id="modifyForImgUrlById">
+        update warehouse set imgUrl=#{imgUrl} where id=#{id}
+    </update>
+
+    <update id="modifyOnlyCid">
+        update warehouse set cid=#{cid} where id=#{id}
+    </update>
+
+    <update id="modifyByIdForCid">
+        update warehouse set cid=null where id=#{id}
+    </update>
+
+    <update id="updateTaskByCid">
+        update warehouse set cid=null where cid=#{cid}
+    </update>
+
+    <insert id="insert">
+        insert into warehouse(onCarOrder,line,codeNum,username,address) value (#{onCarOrder},#{line},#{codeNum},#{username},#{address})
+    </insert>
+
+</mapper>
