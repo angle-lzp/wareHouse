@@ -20,9 +20,9 @@
     <!--连接数据库，使用druid连接池-->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://120.26.43.45:3306/warehouse"/>
-        <property name="username" value="root"/>
-        <property name="password" value="itcast"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/DataBase"/>
+        <property name="username" value="username"/>
+        <property name="password" value="passwrod"/>
     </bean>
     <!--配置生产SqlSession对象的工厂 让 spring 管理 sqlsessionfactory 使用mybatis和spring整合包中的-->
     <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
